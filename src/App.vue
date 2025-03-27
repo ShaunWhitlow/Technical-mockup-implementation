@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style>
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -31,11 +30,10 @@ export default {
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #10002B; /* Darkest color */
-  color: #E0AAFF; /* Lightest color for text */
+  background-color: #10002B; 
+  color: #E0AAFF; 
 }
 
-/* Main container */
 #app {
   display: flex;
   flex-direction: column;
@@ -45,9 +43,8 @@ body {
   padding: 20px;
 }
 
-/* Header styling */
 header {
-  background-color: #240046; /* Dark purple */
+  background-color: #240046; 
   color: #E0AAFF;
   padding: 20px 40px;
   width: 100%;
@@ -60,41 +57,38 @@ header h1 {
   margin-bottom: 10px;
 }
 
-/* Navigation */
 nav {
   margin-top: 10px;
 }
 
 nav a {
-  color: #C77DFF; /* Soft lavender for links */
+  color: #C77DFF;
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.1rem;
 }
 
 nav a:hover {
-  color: #5A189A; /* Vibrant purple for hover */
+  color: #5A189A;
   text-decoration: underline;
 }
 
-/* Main content area */
 main {
   padding: 20px;
   width: 80%;
   max-width: 900px;
-  background-color: #3C096C; /* Medium purple for background */
+  background-color: #3C096C; 
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
 
-/* Button styles */
 .btn {
   display: inline-block;
   padding: 10px 20px;
   font-size: 1.1rem;
   color: #fff;
-  background-color: #5A189A; /* Vibrant purple */
+  background-color: #5A189A;
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
@@ -102,7 +96,7 @@ main {
 }
 
 .btn:hover {
-  background-color: #7B2CBF; /* Lighter purple for hover effect */
+  background-color: #7B2CBF; 
 }
 
 .buttons {

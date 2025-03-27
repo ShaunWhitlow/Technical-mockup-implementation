@@ -24,13 +24,13 @@ export default {
 h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #E0AAFF; /* Lightest lavender */
+  color: #E0AAFF; 
 }
 
 p {
   font-size: 1.3rem;
   margin-bottom: 20px;
-  color: #C77DFF; /* Soft lavender */
+  color: #C77DFF; 
 }
 
 .expense-input {
@@ -40,18 +40,18 @@ p {
   max-width: 400px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid #7B2CBF; /* Lighter purple for border */
-  background-color: #9D4EDD; /* Lighter purple for background */
-  color: #E0AAFF; /* Light lavender text color */
+  border: 1px solid #7B2CBF; 
+  background-color: #9D4EDD; 
+  color: #E0AAFF; 
 }
 
 .expense-input::placeholder {
-  color: #F5F5F5; /* Light grey, close to white for the placeholder */
+  color: #F5F5F5; 
 }
 
 .expense-input:focus {
   outline: none;
-  border-color: #5A189A; /* Focus color in vibrant purple */
+  border-color: #5A189A; 
 }
 
 .buttons {
@@ -66,7 +66,7 @@ p {
   padding: 10px 20px;
   font-size: 1.1rem;
   color: #fff;
-  background-color: #5A189A; /* Vibrant purple */
+  background-color: #5A189A; 
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
@@ -74,7 +74,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #7B2CBF; /* Lighter purple for hover */
+  background-color: #7B2CBF; 
 }
 </style>
 

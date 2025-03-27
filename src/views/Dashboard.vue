@@ -19,13 +19,13 @@ export default {
 h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #E0AAFF; /* Lightest lavender for title */
+  color: #E0AAFF; 
 }
 
 p {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #C77DFF; /* Soft lavender for text */
+  color: #C77DFF; 
 }
 
 .buttons {
@@ -40,7 +40,7 @@ p {
   padding: 10px 20px;
   font-size: 1.1rem;
   color: #fff;
-  background-color: #5A189A; /* Vibrant purple */
+  background-color: #5A189A; 
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
@@ -48,7 +48,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #7B2CBF; /* Lighter purple for hover */
+  background-color: #7B2CBF; 
 }
 </style>
 
